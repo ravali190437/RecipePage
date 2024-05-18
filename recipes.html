@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link src="script.js">
+    <link rel="stylesheet" href="style.css">]
+    <!-- <link src="script.js"> -->
+</head>
+<body>
+    <header id="reci-head">
+      <h1>List of Recipes</h1>
+    </header><br>
+
+    <div class="input-group input-group-sm mb-3">
+      <span class="input-group-text" id="inputGroup-sizing-sm">Search for a recipe</span>
+      <input type="text" id="input-txt" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" >
+      <button type="button" class="btn btn-info" onclick="gotofunc()">Search</button>
+      <p>Select any item from dropdown and search for it</p>
+      
+    </div>
+
+   
+    <ul id="list-items"><div class="container">
+      <div class="row">
+        <div class="col">
+          <select class="form-select" id="starters-sel" aria-label="Default select example" onchange="selectfunc1()">
+            <option selected>Starters</option>
+            <option value="Chicken-Manchurian">Chicken-Manchurian</option>
+            <option value="Prawns">Prawns</option>
+            <option value="Fish-fry">Fish-fry</option>
+          </select>
+        </div>
+        <div class="col">
+          <select class="form-select" id="maincourse-sel" aria-label="Default select example" onchange="selectfunc2()">
+            <option selected>Main-Course</option>
+            <option value="Biryani">Biryani</option>
+            <option value="Mutton-Curry">Mutton-Curry</option>
+            <option value="Thali">Thali</option>
+          </select>
+        </div>
+        <div class="col">
+          <select class="form-select" id="tiffins-sel" aria-label="Default select example" onchange="selectfunc3()">
+            <option selected>Tiffins</option>
+            <option value="Idli">Idli</option>
+            <option value="Vada">Vada</option>
+          </select>
+        </div>
+      </div>
+    </div>
+        <hr>
+        <h2 class="h2-1">Starters</h2>
+        <hr>
+        <div class="starter" id="Starters">
+          <li id="Chicken-Manchurian">
+            <h3><em>Chicken Manchurian</em></h3>
+             <img src="images/chi.jpg" alt="pic1" width="180" height="150">
+                <p>Chicken Manchurian is a popular Indo-Chinese dish that's loved for its flavorful and tangy taste. It's a starter dish made with marinated chicken pieces that are deep-fried and then tossed in a spicy and tangy Manchurian sauce.</p>
+           
+          </li>
+          <li id="Prawns" >
+            <h3><em>Prawns Fry</em></h3>
+            <img src="images/prawns.jpg" alt="pic2" width="180" height="150">
+                <p>Prawn fry is a flavorful and delicious dish made with marinated prawns that are shallow or deep-fried until golden and crispy. </p>
+          </li>
+          <li id="Fish-fry">
+            <h3><em>Fish Fry</em></h3>
+            <img src="images/fish.jpeg" alt="pic3" width="180" height="150">
+                <p>Fish fry is a popular dish enjoyed in many cuisines around the world. It involves coating fish pieces with a seasoned mixture and frying them until golden and crispy. </p>
+          </li>
+
+
+        </div>
+          
+          <hr>
+          <h2 class="h2-1" id="Main-Course">Main Course</h2>
+          <hr>
+          <li id="Biryani">
+            <h3><em>Biryani</em></h3>
+             <img src="images/biryani.jpg" alt="pic4" width="180" height="150" loading="lazy">
+                <p>Hyderabadi Biryani is a famous and flavorful variety of biryani that originates from the city of Hyderabad in India. It's known for its aromatic spices, tender meat (usually chicken or mutton), and long-grain Basmati rice cooked to perfection.</p>
+          </li>
+          <li id="Mutton-Curry">
+            <h3><em>Mutton Curry</em></h3>
+            <img src="images/mutton.jpeg" alt="pic5" width="180" height="150">
+                <p>Mutton curry is a delicious and flavorful dish made with tender pieces of mutton (goat meat) cooked in a spicy and aromatic gravy.</p>
+        
+          </li>
+          <li id="Thali">
+            <h3><em>Thali</em></h3>
+            <img src="images/thali.jpg" alt="pic8" width="180" height="150">
+           
+                <p>It is a mixed food item where all the items like rice, chapathi, curries, chutneys, etc are included.</p>
+        
+          </li>
+          <hr>
+          <h2 class="h2-1" id="Tiffins">Tiffins</h2>
+          <hr>
+          <li id="Idli">
+            <h3><em>Idli</em></h3>
+            <img src="images/idli.jpg" alt="pic6" width="180" height="150" loading="lazy">
+            
+            <p>Idli is a popular and traditional South Indian dish that's enjoyed as a breakfast item or snack. It is a type of steamed rice cake made from fermented rice and black lentils (urad dal). Idlis are light, fluffy, and have a slightly sour taste due to fermentation.</p>
+            
+         </li>
+          <li id="Vada">
+            <h3><em>Vada</em></h3>
+            <img src="images/vada.jpg" alt="pic7" width="180" height="150">
+                <p>Vada is a popular South Indian snack made from a batter consisting mainly of soaked and ground urad dal (black gram lentils) along with spices.</p>     
+          </li>
+    </ul>
+    <br>
+    <footer>
+      <ul>
+        <li><a href="recipe-details.html"><b>Go to Recipe-Details Page</b></a><br><br></li>
+        <li><a href="index.html"><b>Go Back to Home Page</b></a></li>
+      </ul> 
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script  src="script.js"></script>
+  </body>
+</html>

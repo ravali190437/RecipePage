@@ -1,0 +1,74 @@
+*{
+   box-sizing: border-box;
+}
+header{
+    text-align: center;
+}
+#main-main-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login-head{
+    color:red;
+    font-size: 3em;
+    background-color: aquamarine; 
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-style:hidden;
+    margin-left:500px; 
+    margin-right:500px;
+    border: solid ;
+}
+
+#main-con{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:cyan;
+    border:5px dashed coral;
+}
+
+footer{
+    text-align: center;
+    justify-content: center;
+}
+
+legend{
+    font-size: larger;
+    text-align: center;
+}
+
+#sign-up{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.btn{
+    width: 75px;
+    height: 25px;
+    background-color:rgb(250, 207, 167);
+    border-radius: 5%;
+    font-weight: 600%;
+}
+
+#sign-up{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color:cyan;
+    border:5px dashed coral;
+}
+
+#sign-btn{
+    display: flex;
+    justify-content: center;
+}
+

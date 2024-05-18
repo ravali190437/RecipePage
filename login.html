@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+     <header>
+           <h1 id="login-head">Login Page</h1>
+     </header>
+     <br><br>
+     <div id="main-main-con">
+     <div id="main-con">
+           <form >
+                <fieldset>
+                <legend >Login</legend>
+                <p>
+                    <label for="name">Username</label>
+                    <input type="email" id="name" name="name" placeholder="Username" required>
+                </p>
+                <p>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="name"  placeholder="Password" required>
+                </p>              
+                </fieldset>
+                <fieldset>
+                    <button type="button" class="btn" onclick="loginfunc()">Login</button>
+                    <p>if you don't have an account click here</p>
+                    <a href="signup.html">Sign Up</a>
+                </fieldset>
+           </form>
+        </div>
+    </div>
+     <footer>
+        &copy; You can refer the HomePage
+        <p><a href="index.html"><b>Back to HomePage</b></a></p>
+     </footer>
+     <script src="script1.js"></script>
+    
+</body>
+</html>
